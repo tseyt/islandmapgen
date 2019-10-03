@@ -7,8 +7,8 @@ I ported this algorithm for generating procedural Island worlds for a massively-
 
 Read more about how the algorithm works [here.](http://www-cs-students.stanford.edu/~amitp/game-programming/polygon-map-generation/)
 
-Create new randomly-generated IslandMap
-```
+Create a new randomly-generated IslandMap:
+```lua
 local IslandMap = require(**IslandMap Script Location**)
 local island = IslandMap:new()
 ```
