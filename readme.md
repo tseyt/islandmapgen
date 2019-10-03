@@ -10,7 +10,8 @@ Read more about how the algorithm works [here.](http://www-cs-students.stanford.
 Create a new randomly-generated IslandMap:
 ```lua
 local IslandMap = require(**IslandMap Script Location**)
-local island = IslandMap:new()
+local island = IslandMap:new() --Creates a new IslandMap
+island:go() --Starts the procedural generation (if IslandMap:go() is called again, it will generate a completely new map)
 ```
 
 The `island` variable now contains the graph structure of polygons for your procedural Island world, and you may use the data within to construct your new island for your game.
